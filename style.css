@@ -1,0 +1,39 @@
+﻿body {
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#Header {
+    background-color: gray;
+    top: 0px;
+    width: 100%;
+    float:left;
+}
+
+.Container .Wrapper nav ul {
+    list-style: none;
+    float: right;
+}
+
+.Container .Wrapper nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.Container nav ul li a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0px 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
